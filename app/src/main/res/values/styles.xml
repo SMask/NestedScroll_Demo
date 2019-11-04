@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TabLayout -->
+    <style name="TabLayout_Base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbarSize">0dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicatorColor">@color/main</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabSelectedTextColor">@color/main</item>
+        <item name="tabTextAppearance">@style/TabLayoutText_Content</item>
+        <item name="tabTextColor">@color/main_font</item>
+    </style>
+
+    <!-- TabLayout TextView -->
+    <style name="TabLayoutText_Base" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- TabLayout TextView Content-->
+    <style name="TabLayoutText_Content" parent="TabLayoutText_Base">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- IndicatorView -->
+    <style name="IndicatorView_Base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="indicator_margin">6dp</item>
+        <item name="indicator_colorNormal">@color/white</item>
+        <item name="indicator_colorSelected">@color/white</item>
+        <item name="indicator_style">RECT</item>
+        <item name="indicator_radiusNormal">16dp</item>
+        <item name="indicator_radiusSelected">30dp</item>
+        <item name="indicator_widthNormal">16dp</item>
+        <item name="indicator_widthSelected">30dp</item>
+        <item name="indicator_heightNormal">4dp</item>
+        <item name="indicator_heightSelected">4dp</item>
+        <item name="indicator_corners">4dp</item>
+    </style>
+
+</resources>
